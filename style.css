@@ -1,0 +1,100 @@
+/* Colors and fonts */
+body {
+	background: #898121;
+	color: #4C4B16;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+h1, h2, h3{
+	font-family: Impact;
+
+}
+
+h1 {
+	color: #F87A53;
+	font-size: 32px;
+
+}
+
+h2, h3 {
+	color: #F87A53;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #F87A53;
+}
+
+a:hover {
+	color: #898121;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px ;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color: #F87A53;
+	color: #4C4B16;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-pink:hover {
+    background-color: #F87A53;
+	color: white;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+}
+
+/* Design adjustments using id */
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+
